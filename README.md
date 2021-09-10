@@ -29,7 +29,19 @@ IP 프로토콜의 한계
 TCP 특징 : 전송 제어 프로토콜 (Transmission Control Protocol)
  - 연결 지향 : TCP 3 way handshake (가상 연결)
  - 데이터 전달 보증
- - 순서 보장
+ - 순서 보장 : 1,2,3 순서로 전송을 했는데 1,3,2 로 도착을 하면 서버가 2 부터 다시 보내라고 요청한다
  - 신뢰할 수 있는 프로토콜
  - 현재는 대부분 TCP 사용
+
+![image](https://user-images.githubusercontent.com/74750945/132820932-045a2a3d-a46c-4753-9eaa-7836b3d2b369.png)
+
+UDP 특징 : 사용자 데이터그램 프로토콜 (User Datagram Protocol)
+ - 하얀 도화지에 비유(기능이 거의 없음)
+ - 연결지향 - TCP 3 way handshake ❌
+ - 데이터 전달 보증 ❌
+ - 순서 보장 ❌
+ - 데이터 전달 및 순서가 보장되지 않지만, 단순하고 빠름
+ - IP와 거의 같다. PORT와 체크섬 정도만 추가 된다
+ - 애플리케이션에서 추가 작업이 필요하다
+
 
