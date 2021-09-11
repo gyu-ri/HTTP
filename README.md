@@ -55,6 +55,8 @@ URL fragment
  - html 내부 북마크 등에 사용
  - 서버에 전송하는 정보 아님 
 
+![image](https://user-images.githubusercontent.com/74750945/132942337-21aa91f8-215f-429b-a64b-b0a887aef4a3.png)
+
 
 
  
